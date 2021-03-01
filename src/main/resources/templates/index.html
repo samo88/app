@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+    <h1 >Wertpapierverwaltung</h1>
+    <div>
+        <section>
+            <h2>Wertpapierverwaltung</h2>
+            <p><a href="example.html" th:href="@{/employees}">Liste aller Wertpapiere</a></p>
+        </section>
+        <section>
+            <h2>Management</h2>
+            <p><a href="example.html" th:href="@{/employees}">Management API</a></p>
+        </section>
+    </div>
+</div>
+</body>
+</html>

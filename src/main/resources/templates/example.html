@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+  <meta charset="utf-8" />
+  <title>Home</title>
+
+</head>
+<body>
+<div class="container">
+
+    <section>
+      <h2>Wertpapierverwaltung</h2>
+      <p><button th:action="@{/employees}">Liste aller Wertpapiere</button></p>
+    </section>
+    <section>
+      <h2>Management</h2>
+      <p><a href="info.html" th:href="@{/employees}">Management API</a></p>
+    </section>
+  </div>
+</div>
+</body>
+</html>
